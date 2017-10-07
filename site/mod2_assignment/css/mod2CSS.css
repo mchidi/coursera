@@ -10,6 +10,7 @@ h1{
 	font-family: "Times New Roman", Times, serif;
 	color: red;
 	text-align: center;
+	font-size: 1.75em;
 }
 
 .container{
@@ -55,7 +56,6 @@ h1{
 
 p{
 	clear: right;
-
 }
 
 .row{
@@ -149,4 +149,4 @@ p{
 	}
 }
 
-/* Mobile View will be automatic once the device is less than 768
+/* Mobile View will be automatic once the device is less than 768px
