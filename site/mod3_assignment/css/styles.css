@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+}
+/*background of the site*/
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #800000;
+}
+#navbar_id{
+	background-color: #ffd700;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand h1{ /*Food, LLC*/
+	font-family: 'Aclonica', sans-serif;
+	font-weight: bold;
+	color: #800000;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 1px #fff;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.8;
+}
+.navbar-brand a:hover, a:focus { /*Food LLC*/
+	text-decoration: none;
+}
+#nav-list a:hover{
+	background-color: #ffe6e6;
+}
+
+#nav-list{
+	font-size: 1.3em;
+	text-align: center;
+}
+#nav-list span{
+	font-family: 'Aclonica', sans-serif;
+	font-weight: bold;
+	color: #800000;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #800000;
+}
+
+#main-content{
+	/*background-color: #ffd700;*/
+	height: auto;
+	/*width: 100%;*/
+}
+#main-content p{
+	color: #800000;
+	padding: 15px;
+	font-size: 1em;
+}
+#main-content section{
+	font-family: 'Aclonica', sans-serif;
+	padding-top: 15px;
+	font-size: 1.5em;
+	color: maroon;
+}
+.column{
+	background-color: #ffd700;
+	border: 10px solid maroon;
+
+	/*margin: 5px;*/
+	/*width: 33%;*/
+
+}
+
+@media(max-width: 767px){
+	#main-content{
+		margin: 30px;
+	}
+}
+
+@media(max-width: 1200px){
+	
+}
